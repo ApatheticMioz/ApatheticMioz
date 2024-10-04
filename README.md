@@ -1,7 +1,4 @@
-- 👋 Hi, I’m Abdullah Ali
-- 👀 I’m interested in Chess, Programming and games!
-- 🌱 I’m currently doing a Bachelors of Science in Data Science
-- 💞️ I’m currently learning C++, and have experience in Python.
+Hello there.
 
 <!---
 ApatheticMioz/ApatheticMioz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
