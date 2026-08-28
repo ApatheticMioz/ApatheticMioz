@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1121"/>
+      <stop offset="0.55" stop-color="#131832"/>
+      <stop offset="1" stop-color="#1a1b41"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.35" stop-color="#bb9af7"/>
+      <stop offset="0.7" stop-color="#f7768e"/>
+      <stop offset="1" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ac3de"/>
+      <stop offset="1" stop-color="#73daca"/>
+    </linearGradient>
+    <radialGradient id="orbGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bb9af7" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes drift1 { 0% { transform: translateX(0); } 50% { transform: translateX(-70px); } 100% { transform: translateX(0); } }
+      @keyframes drift2 { 0% { transform: translateX(0); } 50% { transform: translateX(90px); } 100% { transform: translateX(0); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+      @keyframes glowline { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+      .w1 { animation: drift1 10s ease-in-out infinite; }
+      .w2 { animation: drift2 14s ease-in-out infinite; }
+      .orb { animation: pulse 4.5s ease-in-out infinite; transform-origin: 790px 78px; }
+      .line { animation: glowline 5s ease-in-out infinite; }
+      text { font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="250" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#7aa2f7" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="150" y1="0" x2="150" y2="250"/>
+    <line x1="300" y1="0" x2="300" y2="250"/>
+    <line x1="450" y1="0" x2="450" y2="250"/>
+    <line x1="600" y1="0" x2="600" y2="250"/>
+    <line x1="750" y1="0" x2="750" y2="250"/>
+  </g>
+
+  <!-- Animated waves -->
+  <g class="w1">
+    <path d="M-80,185 C140,150 340,215 560,185 C740,160 860,190 980,175 L980,250 L-80,250 Z"
+          fill="url(#wave)" opacity="0.16"/>
+  </g>
+  <g class="w2">
+    <path d="M-80,205 C200,175 420,230 640,202 C780,185 900,210 980,198 L980,250 L-80,250 Z"
+          fill="url(#wave2)" opacity="0.12"/>
+  </g>
+  <line class="line" x1="0" y1="185" x2="900" y2="185" stroke="url(#wave)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- GPU / inference orb -->
+  <circle class="orb" cx="790" cy="78" r="46" fill="url(#orbGlow)"/>
+  <circle cx="790" cy="78" r="17" fill="#1a1b41" stroke="#bb9af7" stroke-width="2.5" filter="url(#glow)"/>
+  <g fill="#7aa2f7" font-size="11" font-weight="bold" text-anchor="middle">
+    <text x="790" y="82">AI</text>
+  </g>
+  <g stroke="#bb9af7" stroke-width="2" stroke-linecap="round">
+    <line x1="773" y1="61" x2="768" y2="54"/>
+    <line x1="790" y1="58" x2="790" y2="50"/>
+    <line x1="807" y1="61" x2="812" y2="54"/>
+    <line x1="773" y1="95" x2="768" y2="102"/>
+    <line x1="790" y1="98" x2="790" y2="106"/>
+    <line x1="807" y1="95" x2="812" y2="102"/>
+  </g>
+
+  <!-- Identity block -->
+  <text x="60" y="92" font-size="36" font-weight="700" fill="#c0caf5">Muhammad Abdullah Ali</text>
+  <text x="60" y="120" font-size="15" fill="#565f89">@ApatheticMioz  ·  AI/ML Systems Engineer</text>
+  <text x="60" y="150" font-size="16" fill="#9aa5ce">LLM Serving Infrastructure  ·  Geo-Distributed RAG  ·  Multi-Agent Orchestration</text>
+
+  <!-- Tech chips -->
+  <g font-size="12.5" font-weight="600">
+    <g>
+      <rect x="60"  y="176" width="72"  height="26" rx="13" fill="#7aa2f7" fill-opacity="0.12" stroke="#7aa2f7"/>
+      <text x="96"  y="194" fill="#7aa2f7" text-anchor="middle">vLLM</text>
+    </g>
+    <g>
+      <rect x="142" y="176" width="78"  height="26" rx="13" fill="#2ac3de" fill-opacity="0.12" stroke="#2ac3de"/>
+      <text x="181" y="194" fill="#2ac3de" text-anchor="middle">PyTorch</text>
+    </g>
+    <g>
+      <rect x="230" y="176" width="72"  height="26" rx="13" fill="#bb9af7" fill-opacity="0.12" stroke="#bb9af7"/>
+      <text x="266" y="194" fill="#bb9af7" text-anchor="middle">gRPC</text>
+    </g>
+    <g>
+      <rect x="312" y="176" width="96"  height="26" rx="13" fill="#f7768e" fill-opacity="0.12" stroke="#f7768e"/>
+      <text x="360" y="194" fill="#f7768e" text-anchor="middle">Next.js 16</text>
+    </g>
+    <g>
+      <rect x="418" y="176" width="88"  height="26" rx="13" fill="#9ece6a" fill-opacity="0.12" stroke="#9ece6a"/>
+      <text x="462" y="194" fill="#9ece6a" text-anchor="middle">TypeScript</text>
+    </g>
+    <g>
+      <rect x="516" y="176" width="64"  height="26" rx="13" fill="#e0af68" fill-opacity="0.12" stroke="#e0af68"/>
+      <text x="548" y="194" fill="#e0af68" text-anchor="middle">CUDA</text>
+    </g>
+    <g>
+      <rect x="590" y="176" width="88"  height="26" rx="13" fill="#73daca" fill-opacity="0.12" stroke="#73daca"/>
+      <text x="634" y="194" fill="#73daca" text-anchor="middle">Qdrant</text>
+    </g>
+    <g>
+      <rect x="688" y="176" width="86"  height="26" rx="13" fill="#c678dd" fill-opacity="0.12" stroke="#c678dd"/>
+      <text x="731" y="194" fill="#c678dd" text-anchor="middle">WireGuard</text>
+    </g>
+  </g>
+</svg>
