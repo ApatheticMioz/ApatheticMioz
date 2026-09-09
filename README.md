@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@main/assets/profile-header.svg" alt="ApatheticMioz - Applied AI & High-Performance Systems Engineer" width="100%" />
+<img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@v2.0.0/assets/profile-header.svg" alt="ApatheticMioz - Applied AI & High-Performance Systems Engineer" width="100%" />
 
 <br/>
 
@@ -26,7 +26,7 @@ I am an **Applied AI & High-Performance Systems Engineer** specializing in distr
 ### 📊 Verified Systems & Architecture Index
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@main/assets/language-chart.svg" alt="Verified Language Byte Distribution" width="85%" />
+  <img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@v2.0.0/assets/language-chart.svg" alt="Verified Language Byte Distribution" width="85%" />
 </div>
 
 <br/>
