@@ -4,9 +4,8 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ApatheticMioz-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-abdullah-ali-ds)
 [![Portfolio](https://img.shields.io/badge/GitHub_Portfolio-ApatheticMioz-8A2BE2?style=flat-square&logo=github&logoColor=white)](https://github.com/ApatheticMioz)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:m.abdullah.ali.2323@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ApatheticMioz%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ApatheticMioz@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Islamabad,_PK-informational?style=flat-square&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Islamabad)
 
 </div>
