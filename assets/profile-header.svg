@@ -81,8 +81,8 @@
   </g>
 
   <!-- Identity block -->
-  <text x="60" y="92" font-size="36" font-weight="700" fill="#c0caf5">Muhammad Abdullah Ali</text>
-  <text x="60" y="120" font-size="15" fill="#565f89">@ApatheticMioz  ·  AI/ML Systems Engineer</text>
+  <text x="60" y="92" font-size="36" font-weight="700" fill="#c0caf5">ApatheticMioz</text>
+  <text x="60" y="120" font-size="15" fill="#565f89">Applied AI &amp; High-Performance Systems Engineer</text>
   <text x="60" y="150" font-size="16" fill="#9aa5ce">LLM Serving Infrastructure  ·  Geo-Distributed RAG  ·  Multi-Agent Orchestration</text>
 
   <!-- Tech chips -->
