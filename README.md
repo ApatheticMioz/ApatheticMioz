@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/profile-header.svg" alt="Muhammad Abdullah Ali - Applied AI & High-Performance Systems Engineer" width="100%" />
+<img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@main/assets/profile-header.svg" alt="Muhammad Abdullah Ali - Applied AI & High-Performance Systems Engineer" width="100%" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-M._Abdullah_Ali-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-abdullah-ali-ds)
 [![Portfolio](https://img.shields.io/badge/GitHub_Portfolio-ApatheticMioz-8A2BE2?style=flat-square&logo=github&logoColor=white)](https://github.com/ApatheticMioz)
 [![Email](https://img.shields.io/badge/Email-m.abdullah.ali.2323@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:m.abdullah.ali.2323@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Islamabad,_PK-informational?style=flat-square&logo=google-maps&logoColor=white)](https://goo.gl/maps/islamabad)
+[![Location](https://img.shields.io/badge/Location-Islamabad,_PK-informational?style=flat-square&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Islamabad)
 
 </div>
 
@@ -27,7 +27,7 @@ I am an **Applied AI & High-Performance Systems Engineer** specializing in distr
 ### 📊 Verified Systems & Architecture Index
 
 <div align="center">
-  <img src="assets/language-chart.svg" alt="Verified Language Byte Distribution" width="85%" />
+  <img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@main/assets/language-chart.svg" alt="Verified Language Byte Distribution" width="85%" />
 </div>
 
 <br/>
@@ -42,8 +42,8 @@ I am an **Applied AI & High-Performance Systems Engineer** specializing in distr
 | **[OpenGL Snake Game Engine](https://github.com/ApatheticMioz/cpp-glut-snake-engine)** | `🌐 Public` | C++ OpenGL/GLUT arcade engine with collision math and state machine loop | **2,300 lines C++** · File-persisted high score engine |
 | **Enterprise WhatsApp AI Assistant** | `🔒 Proprietary` | Enterprise agentic tool-calling workflows & webhook ingestion @ Data Precedes | **Sub-500ms webhook** · 41-case deterministic eval suite |
 | **Local LLM Serving Harness** | `🔒 Private` | Local serving harness & AVO multi-agent protocol *(syv-ai/qwen38-27b base)* | **245K context in 5.26 GiB VRAM** · **~130 tok/s decode** |
-| **[Tech-Retail-Ecosystem](https://github.com/ApatheticMioz/Tech-Retail-Ecosystem)** | `🔒 Private` | Contract-first e-commerce platform (OpenAPI 3.1, TypeScript strict, Drizzle ORM) | **Zero-drift codegen** · 3-tier rate limiting |
-| **[RocketLeague-RL-Bot](https://github.com/ApatheticMioz/RocketLeague-RL-Bot)** | `🔒 Private` | Autonomous Rocket League agent (PyTorch, Proximal Policy Optimization) | **Continuous 3D flight control** via reward shaping |
+| **Tech-Retail-Ecosystem** | `🔒 Private` | Contract-first e-commerce platform (OpenAPI 3.1, TypeScript strict, Drizzle ORM) | **Zero-drift codegen** · 3-tier rate limiting |
+| **RocketLeague-RL-Bot** | `🔒 Private` | Autonomous Rocket League agent (PyTorch, Proximal Policy Optimization) | **Continuous 3D flight control** via reward shaping |
 
 ---
 
