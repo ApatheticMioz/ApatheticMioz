@@ -1,12 +1,13 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@v2.0.0/assets/profile-header.svg" alt="ApatheticMioz - Applied AI & High-Performance Systems Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/ApatheticMioz/ApatheticMioz/main/assets/profile-header.svg" alt="ApatheticMioz - Applied AI & High-Performance Systems Engineer" width="100%" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/GitHub_Portfolio-ApatheticMioz-8A2BE2?style=flat-square&logo=github&logoColor=white)](https://github.com/ApatheticMioz)
-[![Email](https://img.shields.io/badge/Email-ApatheticMioz%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ApatheticMioz@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Islamabad,_PK-informational?style=flat-square&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Islamabad)
+[![GitHub Repos](https://img.shields.io/badge/Public_Repositories-30+-8A2BE2?style=flat-square&logo=github&logoColor=white)](https://github.com/ApatheticMioz?tab=repositories)
+[![npm package](https://img.shields.io/npm/v/mcp-castor.svg?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/mcp-castor)
+[![Rust 2024](https://img.shields.io/badge/Rust-2024_Edition-DEA584?style=flat-square&logo=rust&logoColor=white)](https://github.com/ApatheticMioz/Castor)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-abdullah-ali-ds/)
 
 </div>
 
@@ -27,7 +28,7 @@ I am an **Applied AI & High-Performance Systems Engineer** specializing in enter
 ### 📊 Verified Systems & Architecture Index
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/ApatheticMioz/ApatheticMioz@v2.0.0/assets/language-chart.svg" alt="Verified Language Byte Distribution" width="85%" />
+  <img src="https://raw.githubusercontent.com/ApatheticMioz/ApatheticMioz/main/assets/language-chart.svg" alt="Verified Language Byte Distribution" width="85%" />
 </div>
 
 <br/>
