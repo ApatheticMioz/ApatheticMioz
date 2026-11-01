@@ -7,7 +7,7 @@
 [![GitHub Repos](https://img.shields.io/badge/Public_Repositories-30+-8A2BE2?style=flat-square&logo=github&logoColor=white)](https://github.com/ApatheticMioz?tab=repositories)
 [![npm package](https://img.shields.io/npm/v/mcp-castor.svg?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/mcp-castor)
 [![Rust 2024](https://img.shields.io/badge/Rust-2024_Edition-DEA584?style=flat-square&logo=rust&logoColor=white)](https://github.com/ApatheticMioz/Castor)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-abdullah-ali-ds/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-abdullah-ali-ai/)
 
 </div>
 
@@ -17,7 +17,7 @@
 
 I am an **Applied AI & High-Performance Systems Engineer** specializing in enterprise agentic workflows, ultra-low-latency local LLM serving, distributed hybrid retrieval, and empirical systems forensics.
 
-- 🛠️ **Applied AI Engineer (Fractional) @ Data Precedes Inc.** (Ontario, Canada / Remote) — Architecting enterprise agentic AI workflows, tool-calling ecosystems, sub-500ms HMAC WhatsApp Cloud API ingestion, and unsupervised centroid cosine memory clustering on Next.js 16, React 19, and Mastra.
+- 🛠️ **Applied AI Engineer (Fractional) @ Data Precedes Inc.** (Ontario, Canada / Remote) — Architecting enterprise agentic AI workflows, tool-calling ecosystems, low-latency HMAC webhook ingestion, and unsupervised memory clustering on Next.js 16, React 19, and Mastra.
 - 🚀 **Autonomous Agent Systems & High-Efficiency Serving** — Engineering **Castor**, an on-premises agent microkernel in Rust 2024 pairing cloud orchestrators with local models via DGI constrained logit gating, cooperative Mamba cache yields, and zero-turn execution (*2.06B tokens across 36.8K+ turns with 93.8% cache hits and 1,995.7 tok/s peak DFlash2 burst*).
 - 🔬 **First-Author Systems & Empirical Research** — Authoring **SPHP Speculative Prefill** for geo-distributed hybrid RAG (*cutting cold TTFT by 23.7%–27.6% over WireGuard*) and forensic medical vision benchmarks (*submitted to IEEE ICCII 2026, mathematically proving a 77.72% empty-mask Dice artifact*).
 - 🧩 **Repo-Level Code Intelligence & Repair (Senior Capstone / FYP)** — Architecting **Patchwork**, an AST code-graph retrieval and localized structural repair engine for LLM coding agents using Tree-sitter, BM25F + Personalized PageRank, and LibCST compile-gated edits.
