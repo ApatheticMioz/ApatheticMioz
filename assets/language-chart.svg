@@ -4,18 +4,18 @@
       text { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
       .bar { transition: opacity .3s; }
     </style>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
   </defs>
 
   <!-- Card Background -->
   <rect width="520" height="320" rx="8" fill="#0d1121"/>
   <rect x="0" y="0" width="520" height="4" rx="2" fill="url(#topline)"/>
-  <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#7aa2f7"/>
-    <stop offset="1" stop-color="#bb9af7"/>
-  </linearGradient>
 
   <text x="24" y="34" font-size="16" font-weight="700" fill="#c0caf5">Verified Language Byte-Share</text>
-  <text x="24" y="52" font-size="11" fill="#565f89">Measured across 53.2 MB public repository source &middot; 2026</text>
+  <text x="24" y="52" font-size="11" fill="#565f89">Measured across 53.2 MB public repository source &#183; 2026</text>
 
   <!-- Python 31.3% (width = 330 * 0.313 = 103) -->
   <text x="24" y="92" font-size="13" font-weight="600" fill="#9aa5ce">Python</text>
